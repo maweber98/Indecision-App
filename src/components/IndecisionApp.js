@@ -55,7 +55,6 @@ class IndecisionApp extends React.Component {
 
     componentDidMount() {
         try {
-            console.log('fetching data...');
             const json = localStorage.getItem('options');
             const options = JSON.parse(json);
     
@@ -72,7 +71,6 @@ class IndecisionApp extends React.Component {
 
     componentDidUpdate(prevProps, prevState) {
         if(prevState.options.length !== this.state.options.length) {
-            console.log('saving data');
             const json = JSON.stringify(this.state.options);
             localStorage.setItem('options', json);
         }
