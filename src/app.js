@@ -5,7 +5,7 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 
-console.log('Indecision App!....');
+console.log('Indecision App!.....');
 
 ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
 
