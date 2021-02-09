@@ -2,7 +2,7 @@
   "name": "indecsion-app",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Mark Weber",
+  "author": "Mark A Weber",
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
